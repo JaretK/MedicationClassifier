@@ -1,0 +1,63 @@
+# Medication tab-separated list file (.medlist)
+# Order is three level hierarchical:
+# Column Order:
+# 1 - Class, e.g. antihypertensive
+# 2 - Subclass, e.g. Thiazide
+# 3 - generic, e.g. hydrochlorothiazide
+antihypertensive	thiazide	chlorothiazide
+antihypertensive	thiazide	chlorthalidone
+antihypertensive	thiazide	hydrochlorothiazide
+antihypertensive	thiazide	polythiazide
+antihypertensive	thiazide	indapamide
+antihypertensive	thiazide	metolazone
+antihypertensive	thiazide	metolazone
+antihypertensive	loop	bumetanide
+antihypertensive	loop	furosemide
+antihypertensive	loop	torsemide
+antihypertensive	potassium-sparing diuretic	amiloride
+antihypertensive	potassium-sparing diuretic	triamterene
+antihypertensive	Aldosterone receptor blocker	eplerenone
+antihypertensive	Aldosterone receptor blocker	spironolactone
+antihypertensive	Beta blocker	atenolol
+antihypertensive	Beta blocker	betaxolol
+antihypertensive	Beta blocker	bisoprolol
+antihypertensive	Beta blocker	metoprolol
+antihypertensive	Beta blocker	nadolol
+antihypertensive	Beta blocker	propranolol
+antihypertensive	Beta blocker	timolol
+antihypertensive	Beta blocker with intrinsic sympathomimetic activity	acebutolol
+antihypertensive	Beta blocker with intrinsic sympathomimetic activity	penbutolol
+antihypertensive	Beta blocker with intrinsic sympathomimetic activity	pindolol
+antihypertensive	ACEi	benazepril
+antihypertensive	ACEi	captopril
+antihypertensive	ACEi	enalapril
+antihypertensive	ACEi	fosinopril
+antihypertensive	ACEi	lisinopril
+antihypertensive	ACEi	moexipril
+antihypertensive	ACEi	perindopril
+antihypertensive	ACEi	quinapril
+antihypertensive	ACEi	ramipril
+antihypertensive	ACEi	trandolapril
+antihypertensive	Angiotensin II antagonists	candesartan
+antihypertensive	Angiotensin II antagonists	eprosartan
+antihypertensive	Angiotensin II antagonists	irbesartan
+antihypertensive	Angiotensin II antagonists	losartan
+antihypertensive	Angiotensin II antagonists	olmesartan
+antihypertensive	Angiotensin II antagonists	telmisartan
+antihypertensive	Angiotensin II antagonists	valsartan
+antihypertensive	CCBs-nondihydropyridines	diltiazem
+antihypertensive	CCBs-nondihydropyridines	verapamil
+antihypertensive	CCBs-dihydropyridines	amlodipine
+antihypertensive	CCBs-dihydropyridines	felodipine
+antihypertensive	CCBs-dihydropyridines	isradipine
+antihypertensive	CCBs-dihydropyridines	nicardipine
+antihypertensive	CCBs-dihydropyridines	nisoldipine
+antihypertensive	Alpha-1 blockers	doxazosin
+antihypertensive	Alpha-1 blockers	prazosin
+antihypertensive	Alpha-1 blockers	terazosin
+antihypertensive	Central alpha-2 agonists and other centrally acting drugs	clonidine
+antihypertensive	Central alpha-2 agonists and other centrally acting drugs	methyldopa
+antihypertensive	Central alpha-2 agonists and other centrally acting drugs	reserpine
+antihypertensive	Central alpha-2 agonists and other centrally acting drugs	guanfacine
+antihypertensive	Direct vasodilators	hydralazine
+antihypertensive	Direct vasodilators	minoxidil

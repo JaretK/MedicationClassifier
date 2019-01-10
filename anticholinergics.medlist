@@ -1,0 +1,60 @@
+# Medication tab-separated list file (.medlist)
+# Order is three level hierarchical:
+# Column Order:
+# 1 - Class, e.g. anticholinergic
+# 2 - Subclass, e.g. first-generation antihistamine
+# 3 - generic, e.g. diphenhydramine
+anticholinergic	First-generation antihistamine	Brompheniramine
+anticholinergic	First-generation antihistamine	Carbinoxamine
+anticholinergic	First-generation antihistamine	Chlorpheniramine
+anticholinergic	First-generation antihistamine	Clemastine
+anticholinergic	First-generation antihistamine	Cyproheptadine
+anticholinergic	First-generation antihistamine	Dexbrompheniramine
+anticholinergic	First-generation antihistamine	Dexchlorpheniramine
+anticholinergic	First-generation antihistamine	Dimenhydrinate
+anticholinergic	First-generation antihistamine	Diphenhydramine
+anticholinergic	First-generation antihistamine	Doxylamine
+anticholinergic	First-generation antihistamine	Hydroxyzine
+anticholinergic	First-generation antihistamine	Meclizine
+anticholinergic	First-generation antihistamine	Promethazine
+anticholinergic	First-generation antihistamine	Triprolidine
+anticholinergic	Antiparkinsonian agent	Benztropine
+anticholinergic	Antiparkinsonian agent	Trihexyphenidyl
+anticholinergic	Antispasmodics	Atropine
+anticholinergic	Antispasmodics	Belladonna alkaloids
+anticholinergic	Antispasmodics	Clidinium-chlordiazepoxide
+anticholinergic	Antispasmodics	Dicyclomine
+anticholinergic	Antispasmodics	Homatropine
+anticholinergic	Antispasmodics	Hyoscyamine
+anticholinergic	Antispasmodics	Propantheline
+anticholinergic	Antispasmodics	Scopolamine
+anticholinergic	Antidepressants	Amitriptyline
+anticholinergic	Antidepressants	Amoxapine
+anticholinergic	Antidepressants	Clomipramine
+anticholinergic	Antidepressants	Desipramine
+anticholinergic	Antidepressants	Doxepin
+anticholinergic	Antidepressants	Imipramine
+anticholinergic	Antidepressants	Nortriptyline
+anticholinergic	Antidepressants	Paroxetine
+anticholinergic	Antidepressants	Protriptyline
+anticholinergic	Antidepressants	Trimipramine
+anticholinergic	Antipsychotics	Chlorpromazine
+anticholinergic	Antipsychotics	Thioridazine
+anticholinergic	Antipsychotics	Clozapine
+anticholinergic	Antipsychotics	Loxapine
+anticholinergic	Antipsychotics	Olanzapine
+anticholinergic	Antipsychotics	Perphenazine
+anticholinergic	Antipsychotics	Quetiapine
+anticholinergic	Antipsychotics	Trifluoperazine
+anticholinergic	Skeletal muscle relaxants	Cyclobenzaprine
+anticholinergic	Skeletal muscle relaxants	Orphenadrine
+anticholinergic	Antiarrhythmic	Disopyramide
+anticholinergic	Antimuscarinics (urinary incontinence)	Darifenacin
+anticholinergic	Antimuscarinics (urinary incontinence)	Fesoterodine
+anticholinergic	Antimuscarinics (urinary incontinence)	Flavoxate
+anticholinergic	Antimuscarinics (urinary incontinence)	Oxybutynin
+anticholinergic	Antimuscarinics (urinary incontinence)	Solifenacin
+anticholinergic	Antimuscarinics (urinary incontinence)	Tolterodine
+anticholinergic	Antimuscarinics (urinary incontinence)	Trospium
+anticholinergic	Antiemetic	Prochlorperazine
+anticholinergic	Antiemetic	Promethazin
