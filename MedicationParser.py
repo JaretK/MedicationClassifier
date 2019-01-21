@@ -6,18 +6,18 @@ from medication import Medication
 from absl import app
 from absl import flags
 import re
+import sys
 
 # * abseil flags
 FLAGS = flags.FLAGS
 
 flags.DEFINE_string('input', None, 'Input file name.')
-flags.DEFINE_string('output', None, 'Output file name.')
+flags.DEFINE_string('output', "sys.stdout", 'Output file name. [sys.stdout]')
 
 flags.register_validator('input',
                          lambda value: value.endswith('.csv'),
                          message='--input must be a csv file')
 flags.mark_flag_as_required('input')
-flags.mark_flag_as_required('output')
 
 medlist_list = [
     'anticholinergics.medlist',
@@ -92,7 +92,7 @@ def main(argv):
         for med in medications:
             # make re object
             re_med = r'(^|\W|\d)%s($|\W|\d)' % med._generic().lower()
-            if bool(re.search(re_med, patient_meds)):
+            if bool(re.search(re_med, patient_meds.lower())):
                 patient_detected_meds.append(med)
         # patient_list contains id, systolic bp, meds
         patient_list = map(lambda x: x.strip(), splitted)
@@ -125,8 +125,13 @@ def main(argv):
                 patient_list.append('0')
         patient_final_string = ','.join(map(str, patient_list))
         to_write.append(patient_final_string) 
-    with open(FLAGS.output, 'w') as f:
-        f.write('\n'.join(to_write))   
+    to_write = '\n'.join(to_write)
+
+    if FLAGS.output == 'sys.stdout':
+        sys.stdout.write(to_write)
+    else:
+        with open(FLAGS.output, 'w') as f:
+            f.write(to_write)   
 
 if __name__ == '__main__':
     app.run(main)

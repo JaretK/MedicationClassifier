@@ -31,6 +31,9 @@ class Medication(MedicationAbstract):
         return '{}\t{}\t{}'.format(
             self.CLASS, self.SUBCLASS, self.GENERIC)
 
+    def __repr__(self):
+        return str(self)
+
 # testing 
 def main(argv):
     del argv
